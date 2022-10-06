@@ -1,0 +1,855 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+.Header-container {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  left: -0.14%;
+  right: 0%;
+  top: 0%;
+  bottom: 92.18%;
+  background: #F7F7F7;
+  opacity: 0.8;
+
+
+}
+
+.header-Reactangle {
+  float: right;
+  width: 80%;
+  right: 1.5%;
+  top: 0px;
+  position: absolute;
+
+}
+
+.team {
+  position: absolute;
+  left: 46.67%;
+  right: 0.97%;
+  top: 15.01%;
+  bottom: 92.16%;
+  width: 53.4%;
+}
+
+.Ellipse {
+  position: absolute;
+  top: 34%;
+  left: 23%;
+  width: 20%;
+
+
+}
+
+.cutEcllipse {
+  position: absolute;
+  left: 0.17%;
+  right: 77.25%;
+  top: 50.22%;
+  bottom: 92.32%;
+}
+
+.navbar-container {
+
+  position: absolute;
+  left: 8.96%;
+  right: 10.35%;
+  top: 5%;
+  bottom: 98.9%;
+}
+
+.navlink {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlink li a {
+  margin: 10px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.headerAbout {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 27%;
+}
+
+.headerAbout h1 {
+  color: #E71A86;
+}
+
+.headerAbout p {
+  margin-top: 50px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* ----------------------------- About --------------------------------------*/
+
+.About-Container {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+  background-color: #ffffffff;
+}
+
+.About-Container h1 {
+  text-align: center;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text p {
+  margin-top: 40px;
+  width: 68%;
+  color: #878787;
+}
+
+.about-text1 {
+  width: 40%;
+}
+
+.about-text1 p {
+  color: #878787;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-img {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutgroup {
+  width: 30%;
+}
+
+/* ------------------------------------- Mission -------------------------------------*/
+
+
+.mission-text {
+  width: 30%;
+
+}
+
+.mission-container {
+  position: absolute;
+  top: 210%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #FAFAFA;
+
+}
+
+.mission-container h1 {
+  width: fit-content;
+  margin-top: 10%;
+}
+
+.mission-container p {
+
+  width: 100%;
+
+  color: #878787;
+}
+
+.missionImg {
+
+  width: 100%;
+}
+
+
+/* --------------------------------- Vision  ----------------------------*/
+
+
+
+.Vision-Container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 300%;
+  flex-wrap: wrap;
+}
+
+.visionimg {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.vision-text {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.vision-text p {
+  width: 100%;
+}
+
+.vision-text p {
+
+  color: #878787;
+}
+
+
+
+/* ------------------------------ Expert -----------------------------------------*/
+
+
+.Expert-container {
+  background-color: #FAFAFA;
+  width: 100%;
+  position: absolute;
+  top: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Expert-container img {
+  width: 80%;
+  padding-top: 40px;
+}
+
+/* ------------------------------- whatdo ------------------*/
+
+.whatdo-container {
+  width: 100%;
+  position: absolute;
+  top: 510%;
+}
+
+.whatdoimgCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatdo-img {
+  width: 100%;
+}
+
+.whatdoimgCon {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ------------------------------- thoutht -----------------------------*/
+
+
+
+.thought-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 720%;
+  background-color: #FAFAFA;
+  padding: 50px;
+}
+
+.thoughtImg {
+  width: 60%;
+}
+
+
+/*------------------------------------ contact --------------------------*/
+
+
+.contact-con {
+  width: 100%;
+  position: absolute;
+  top: 765%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-heading {
+  text-align: center;
+  padding: 50px;
+}
+
+.nameCon {
+
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameInput {
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.subjectform {
+  width: 675px;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.msgform {
+  width: 675px;
+  height: 100px;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.contact-con input {
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #F7F7F7;
+}
+
+.contact-con textarea {
+
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #F7F7F7;
+}
+
+.submittbtnCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.submitbtn {
+  outline: none;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #EF8431 0%, #E71A86 100%);
+
+}
+
+
+
+/*-------------------------- footer -----------------------*/
+
+.footer-con {
+  position: absolute;
+  top: 850%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.QkickLink a {
+  text-decoration: none;
+}
+
+.footer-con div {
+  width: 300px;
+
+}
+
+.footer-con a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #878787;
+}
+
+.company p {
+  color: #878787;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subscribenews p {
+  color: #878787;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerbtn {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 12px;
+  width: 250px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #EF8431 0%, #E71A86 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerArrow {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+
+/*----------------------- footer bottom -------------------- */
+
+.footerbotton {
+  position: absolute;
+  top: 880%;
+}
+
+.footer-bottom-img {
+  width: 100%;
+}
+
+.footer-group {
+  position: absolute;
+  left: 7%;
+  top: -20%;
+  /* margin-left: 23%; */
+
+}
+
+.footer-data {
+  position: absolute;
+  right: 10%;
+  bottom: 7%;
+}
+
+.fa {
+  padding: 0px 10px;
+  font-size: 25px;
+  color: pink;
+}
+
+
+/* responsive ness */
+
+@media screen and (max-width: 540px) {
+  .navlink {
+    display: none;
+  }
+
+  .mission-container {
+    width: 100%;
+    position: absolute;
+    top: 210%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+
+  }
+
+
+  /* mession container */
+
+
+  .mission-container h1 {
+    width: fit-content;
+    margin-top: 10%;
+  }
+
+  .mission-container p {
+    width: 80%;
+    color: #878787;
+  }
+
+  .missionImg {
+    width: 50%;
+  }
+
+  .mission-text {
+    width: 100%;
+
+  }
+  .missionBottom{
+    display: none;
+  }
+
+
+  /* abouto container */
+
+
+
+  .About-Container {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    background-color: #ffffffff;
+  }
+  
+  .About-Container h1 {
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+  }
+  
+  .about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-text p {
+    font-size: 15px;
+    margin-top: 40px;
+    width: 68%;
+    color: #878787;
+  }
+  
+  .about-text1 {
+    width: 40%;
+  }
+  
+  .about-text1 p {
+    font-size: 15px;
+    color: #878787;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .text-img {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .aboutgroup {
+    width: 30%;
+    height: 300px;
+  }
+
+
+
+  .Vision-Container {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 300%;
+    flex-wrap: wrap;
+  }
+  
+
+
+  /* vision text */
+
+
+  .Vision-Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    top: 300%;
+    flex-wrap: wrap;
+  }
+  .visionimg {
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+  .VisionBottomImgbottom{
+    display: none;
+  }
+  .vision-text {
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  .vision-text p {
+    width: 100%;
+  }
+  
+  .vision-text p {
+  
+    color: #878787;
+  }
+
+
+  /* ------------------------------ Expert -----------------------------------------*/
+
+
+.Expert-container {
+  background-color: #FAFAFA;
+  width: 100%;
+  position: absolute;
+  top: 390%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Expert-container img {
+  width: 80%;
+  padding-top: 40px;
+}
+
+
+
+/* ------------------------------- whatdo ------------------*/
+
+.whatdo-container {
+  width: 100%;
+  position: absolute;
+  top: 450%;
+}
+
+.whatdoimgCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatdo-img {
+  width: 100%;
+}
+
+.whatdoimgCon {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ------------------------------- thoutht -----------------------------*/
+
+
+
+.thought-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 530%;
+  background-color: #FAFAFA;
+  padding: 50px;
+}
+
+.thoughtImg {
+  width: 60%;
+}
+
+
+
+/*------------------------------------ contact --------------------------*/
+
+
+.contact-con {
+  width: 100%;
+  position: absolute;
+  top: 550%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-heading {
+  text-align: center;
+  padding: 50px;
+}
+
+.nameCon {
+  width: 305px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameInput {
+  width: 143px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.subjectform {
+  width: 305px;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.msgform {
+  width: 305px;
+  height: 100px;
+  padding: 15px;
+  margin: 10px;
+
+}
+
+.contact-con input {
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #F7F7F7;
+}
+
+.contact-con textarea {
+
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #F7F7F7;
+}
+
+.submittbtnCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.submitbtn {
+  outline: none;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #EF8431 0%, #E71A86 100%);
+
+}
+
+
+/*----------------- header about -------------------- */
+
+.headerAbout{
+  width: 150px;
+}
+.headerAbout h1 {
+  width: 10px;
+  color: #E71A86;
+}
+
+.headerAbout p {
+  margin-top: 50px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*-------------------------- footer -----------------------*/
+
+.footer-con {
+  position: absolute;
+  top: 645%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.QkickLink a {
+  text-decoration: none;
+}
+
+.footer-con div {
+  width: 300px;
+
+}
+
+.footer-con a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #878787;
+}
+
+.company p {
+  color: #878787;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subscribenews p {
+  color: #878787;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerbtn {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 12px;
+  width: 250px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #EF8431 0%, #E71A86 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerArrow {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+
+/*----------------------- footer bottom -------------------- */
+
+.footerbotton {
+  position: absolute;
+  top: 780%;
+}
+
+.footer-bottom-img {
+  width: 100%;
+}
+
+.footer-group {
+  position: absolute;
+  left: 7%;
+  top: -20%;
+ width: 30%;
+
+}
+
+.footer-data {
+  position: absolute;
+  right: 10%;
+  bottom: 7%;
+}
+
+.fa {
+  padding: 0px 10px;
+  font-size: 25px;
+  color: pink;
+}
+
+}
